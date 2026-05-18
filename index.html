@@ -3,14 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Traveler Privacy Policy</title>
+  <title>Traveler</title>
+
   <style>
+    * { box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
+      font-family: Arial, sans-serif;
       background: #f8f8f8;
       color: #222;
       line-height: 1.6;
+    }
+
+    .hero {
+      background: #FF9800;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 16px auto;
+      font-size: 1.1rem;
     }
 
     .container {
@@ -23,49 +44,69 @@
       background: white;
       padding: 24px;
       border-radius: 16px;
+      margin-bottom: 20px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     }
 
-    h1, h2, h3, h4 {
-      color: #111;
-    }
+    ul { padding-left: 20px; }
 
-    hr {
-      margin: 20px 0;
-      border: none;
-      border-top: 1px solid #eee;
-    }
-
-    ul {
-      padding-left: 20px;
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
     }
 
     a {
       color: #FF9800;
+      text-decoration: none;
     }
 
-    .header {
-      background: #FF9800;
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
+    h2 { margin-top: 0; }
+    h3 { margin-bottom: 6px; }
   </style>
 </head>
 
 <body>
 
-  <div class="header">
-    <h1>Traveler Privacy Policy</h1>
-  </div>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Traveler</h1>
+    <p>
+      Plan trips, organize events, manage budgets, collaborate with friends,
+      and save memories from every experience.
+    </p>
+  </section>
 
   <div class="container">
+
+    <!-- FEATURES -->
     <div class="card">
+      <h2>Features</h2>
+      <ul>
+        <li>Create trips and organize events</li>
+        <li>Invite friends and collaborate</li>
+        <li>Track spending with budget breakdowns</li>
+        <li>View events on maps and calendars</li>
+        <li>See upcoming activities and schedules</li>
+        <li>Review places and save notes after visits</li>
+      </ul>
+    </div>
+
+    <!-- SUPPORT -->
+    <div class="card">
+      <h2>Support</h2>
+      <p>Questions, bugs, or feedback?</p>
+      <p>
+        Email:
+        <a href="mailto:travelers.support@gmail.com">
+          travelers.support@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <!-- PRIVACY POLICY -->
+    <div class="card">
+      <h2>Privacy Policy</h2>
 
       <p><strong>Effective Date:</strong> May 18, 2026</p>
 
@@ -224,16 +265,13 @@
 
       <hr>
 
-      <h2>Contact</h2>
-      <p>
-        Email:
-        <a href="mailto:travelers.support@gmail.com">
-          travelers.support@gmail.com
-        </a>
-      </p>
-
     </div>
+
   </div>
+
+  <footer>
+    © 2026 Traveler
+  </footer>
 
 </body>
 </html>
